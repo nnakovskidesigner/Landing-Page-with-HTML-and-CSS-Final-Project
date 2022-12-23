@@ -1,1 +1,7 @@
 using: github for editing online, and safety
+
+colors to use:
+#5385c1;
+#9a9a9a;
+#5a5a5a;
+

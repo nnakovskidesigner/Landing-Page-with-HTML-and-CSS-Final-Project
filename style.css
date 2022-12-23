@@ -1,0 +1,49 @@
+<style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); </style>
+/* font-family: 'Raleway', sans-serif; */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+.landing-page100percent {
+  width: 100%;
+  /* background-color: red; testing purposes */
+  height: 500px;
+  left: 0px;
+  right: 0px;
+}
+.bluetopheaderline{
+  width: 100%;
+  background-color: #5385c1;;
+  height: 10px;
+}
+.spaceheroimage {
+  background-image: url(/images/banner.jpg);
+  height: 540px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+		
+		
+}
+.ultextareas {
+  height: 450px;
+  width: 100%;
+  background-color: white;
+}
+.bluepeoplesection {
+  height: 780px;
+  width: 100%;
+  background-color: #5385c1;;
+}
+.nuncdignissim {
+  height: 1000px;
+  width: 100%;
+  background-color: red;
+}
+.desktoptext {
+  width: 1280px;
+  background-color: blue;
+  margin: 0 auto;
+}
