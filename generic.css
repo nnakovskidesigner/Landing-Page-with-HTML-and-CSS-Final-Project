@@ -1,10 +1,11 @@
 body {
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }
 .topbar {
   width: 100%;
   height: 45px;
   background-color: #5385c1;
+  float: left;
 }
 .topbaritems {
   margin: 0 auto;
@@ -15,13 +16,13 @@ body {
   position: relative;
   /* text-decoration: none; */
 }
-.topbaritems a{
+.topbaritems a {
   text-decoration: none;
 }
 .floatlinkleft {
   float: left;
 }
-.topbaritems a{
+.topbaritems a {
   color: white;
 }
 .floatlinksright {
@@ -33,4 +34,47 @@ body {
 }
 .semostext {
   font-weight: bold;
+}
+.entirepagesection {
+  width: 1280px;
+  /* background-color: red; */
+  height: 5000px;
+  float: left;
+  margin-top: 14px;
+  margin: 0 auto;
+}
+.entirepagesection h1 {
+  text-align: center;
+  color: #5a5a5a;
+  padding-top: 130px;
+  font-size: 45px;
+}
+.aliquam {
+  text-align: center;
+  color: #5385c1;
+  padding-top: -30px;
+  font-size: 20px;
+}
+.twotextparagraphs {
+  text-align: left;
+  color: green;
+  font-size: 18px;
+}
+.twoimages {
+  /* background-color: green; */
+  text-align: left;
+  /* border: 1px solid black; */
+  width: 578px;
+  height: 500px;
+  float: left;
+}
+.twoimages p {
+  text-align: justify;
+}
+.twoimages button {
+  color: white;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
 }
