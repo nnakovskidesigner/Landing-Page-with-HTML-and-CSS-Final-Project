@@ -1,7 +1,7 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); </style>
+<style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap'); </style>
 /* font-family: 'Raleway', sans-serif; */
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 .landing-page100percent {
   width: 100%;
@@ -30,7 +30,7 @@ body {
 .ultextareas {
   height: 450px;
   width: 100%;
-  background-color: white;
+  /* background-color: white; */
 }
 .bluepeoplesection {
   height: 780px;
@@ -44,6 +44,121 @@ body {
 }
 .desktoptext {
   width: 1280px;
-  background-color: blue;
+  /* background-color: blue; */
   margin: 0 auto;
 }
+.desktopstarttext{ 
+  height: 500px;
+  width: 1280px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+.floatleft {
+  float: left;
+}
+.floatright {
+  float: right;
+}
+.desktopstarttext a{
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  
+}
+.desktopstarttext {
+  padding-top: 100px;
+}
+.boldsemos {
+  font-weight: bold;
+}
+.whitecolorfont {
+  color: white;
+  font-family: 'raleway';
+  padding-top: 50px;
+  font-size: 60px;
+  opacity: 80%;
+}
+.whitep {
+  color: white;
+  opacity: 80%;
+}
+
+.uldesktopv {
+  height: 500px;
+  width: 1280px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+.threeparagraphs {
+  width: 397px;
+  height: 300px;
+  margin-top: 50px;
+  float: left;
+  /* background-color: red; */
+  /* padding-top: 60px; */
+  padding: 10px;
+  border-right: 2px solid #9a9a9a;
+  
+
+}
+.threeparagraphs h1{
+  color: #5385c1;
+  
+}
+.threeparagraphs p{
+  color: black;
+  font-size: 20px;
+}
+.threeparagraphs button {
+  color: white;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.norightborder {
+  border-right: none;
+}
+.bluepeoplesection h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 50px;
+  color: white;
+}
+.bluepeoplesection p {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+.bluepeople1280 {
+  width: 1280px;
+  height: 780px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+.users {
+  width: 274px;
+  border: 1px solid #9a9a9a;
+  height: 430px;
+  float: left;
+  margin-right: 58px;
+  text-align: center;
+}
+.users h3{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.users img{
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+.nomarginright {
+  margin-right: 0px;
+}
+
+
+
