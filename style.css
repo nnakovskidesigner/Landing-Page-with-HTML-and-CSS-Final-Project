@@ -1,7 +1,8 @@
-<style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap'); </style>
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap'); */
 /* font-family: 'Raleway', sans-serif; */
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 10!important;
 }
 .landing-page100percent {
   width: 100%;
@@ -49,15 +50,15 @@ body {
 }
 .nunc1280px h1{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 25px;
   font-size: 50px;
   color: #5385c1;
 }
 .nunc1280px p{
   text-align: center;
   /* padding-top: 50px; */
-  font-size: 30px;
-  color: #9a9a9a;
+  font-size: 25px;
+  color: #5a5a5a;
 }
 .desktoptext {
   width: 1280px;
@@ -201,7 +202,7 @@ body {
 }
 .twoimages h1{
   text-align: left;
-  font-size: 45px;
+  font-size: 25px;
 }
 
 
