@@ -1,0 +1,36 @@
+body {
+  font-family: 'Raleway';
+}
+.topbar {
+  width: 100%;
+  height: 45px;
+  background-color: #5385c1;
+}
+.topbaritems {
+  margin: 0 auto;
+  width: 1280px;
+  /* background-color: green; */
+  height: 45px;
+  top: 12px;
+  position: relative;
+  /* text-decoration: none; */
+}
+.topbaritems a{
+  text-decoration: none;
+}
+.floatlinkleft {
+  float: left;
+}
+.topbaritems a{
+  color: white;
+}
+.floatlinksright {
+  float: right;
+  margin-left: 50px;
+}
+.paddinglinkleft {
+  padding-left: 10px;
+}
+.semostext {
+  font-weight: bold;
+}
