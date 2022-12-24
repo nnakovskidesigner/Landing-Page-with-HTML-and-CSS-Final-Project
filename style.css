@@ -2,7 +2,7 @@
 /* font-family: 'Raleway', sans-serif; */
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 10!important;
+  font-weight: 10 !important;
 }
 .landing-page100percent {
   width: 100%;
@@ -11,9 +11,9 @@ body {
   left: 0px;
   right: 0px;
 }
-.bluetopheaderline{
+.bluetopheaderline {
   width: 100%;
-  background-color: #5385c1;;
+  background-color: #5385c1;
   height: 10px;
 }
 .spaceheroimage {
@@ -25,8 +25,6 @@ body {
   background-size: cover;
   background-position: top;
   text-align: center;
-		
-		
 }
 .ultextareas {
   height: 450px;
@@ -36,25 +34,25 @@ body {
 .bluepeoplesection {
   height: 780px;
   width: 100%;
-  background-color: #5385c1;;
+  background-color: #5385c1;
 }
 .nuncdignissim {
-  height: 1000px;
+  height: 710px;
   width: 100%;
   /* background-color: red; */
 }
 .nunc1280px {
   width: 1280px;
-  height: 1000px;
+  height: 685px;
   margin: 0 auto;
 }
-.nunc1280px h1{
+.nunc1280px h1 {
   text-align: center;
   padding-top: 25px;
   font-size: 50px;
   color: #5385c1;
 }
-.nunc1280px p{
+.nunc1280px p {
   text-align: center;
   /* padding-top: 50px; */
   font-size: 25px;
@@ -65,7 +63,7 @@ body {
   /* background-color: blue; */
   margin: 0 auto;
 }
-.desktopstarttext{ 
+.desktopstarttext {
   height: 500px;
   width: 1280px;
   /* background-color: red; */
@@ -77,13 +75,12 @@ body {
 .floatright {
   float: right;
 }
-.desktopstarttext a{
+.desktopstarttext a {
   color: white;
   text-decoration: none;
   font-size: 15px;
   padding: 5px;
   margin-top: 10px;
-  
 }
 .desktopstarttext {
   padding-top: 100px;
@@ -93,7 +90,7 @@ body {
 }
 .whitecolorfont {
   color: white;
-  font-family: 'raleway';
+  font-family: "raleway";
   padding-top: 50px;
   font-size: 60px;
   opacity: 80%;
@@ -118,14 +115,11 @@ body {
   /* padding-top: 60px; */
   padding: 10px;
   border-right: 2px solid #9a9a9a;
-  
-
 }
-.threeparagraphs h1{
+.threeparagraphs h1 {
   color: #5385c1;
-  
 }
-.threeparagraphs p{
+.threeparagraphs p {
   color: black;
   font-size: 20px;
 }
@@ -164,12 +158,12 @@ body {
   margin-right: 58px;
   text-align: center;
 }
-.users h3{
+.users h3 {
   text-align: center;
   color: white;
   font-size: 30px;
 }
-.users img{
+.users img {
   margin: 0 auto;
   border-radius: 50%;
   margin-top: 50px;
@@ -182,10 +176,8 @@ body {
   text-align: left;
   /* border: 1px solid black; */
   width: 578px;
-  height: 700px;
+  height: 500px;
   float: left;
-  
-  
 }
 .floatrightp {
   float: right;
@@ -197,13 +189,32 @@ body {
   font-size: 25px;
   padding: 10px 25px;
 }
-.twoimages p{
+.twoimages p {
   text-align: justify;
 }
-.twoimages h1{
+.twoimages h1 {
   text-align: left;
   font-size: 25px;
 }
-
-
-
+.footer {
+  width: 1280px;
+  margin: 0 auto;
+  /* background-color: aqua; */
+  border-top: 1px solid #9a9a9a;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer p {
+  /* padding-left:313px; */
+  color: #5a5a5a;
+  display: inline;
+}
+.socialmediaicons {
+  float: right;
+  /* margin-right: 311px; */
+  display: inline;
+  /* padding-left: 10px; */
+}
+.imgpaddingleft {
+  padding-left: 5px;
+}
