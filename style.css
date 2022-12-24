@@ -40,7 +40,24 @@ body {
 .nuncdignissim {
   height: 1000px;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
+}
+.nunc1280px {
+  width: 1280px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.nunc1280px h1{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 50px;
+  color: #5385c1;
+}
+.nunc1280px p{
+  text-align: center;
+  /* padding-top: 50px; */
+  font-size: 30px;
+  color: #9a9a9a;
 }
 .desktoptext {
   width: 1280px;
@@ -158,6 +175,33 @@ body {
 }
 .nomarginright {
   margin-right: 0px;
+}
+.twoimages {
+  /* background-color: green; */
+  text-align: left;
+  /* border: 1px solid black; */
+  width: 578px;
+  height: 700px;
+  float: left;
+  
+  
+}
+.floatrightp {
+  float: right;
+}
+.buttonfornunc {
+  color: white;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.twoimages p{
+  text-align: justify;
+}
+.twoimages h1{
+  text-align: left;
+  font-size: 45px;
 }
 
 
