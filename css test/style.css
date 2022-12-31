@@ -1,0 +1,11 @@
+/* .element {
+  width: 100px;
+  padding: 20px;
+  border: 10px solid black;
+} */
+.element {
+  box-sizing: border-box;
+  width: 50px;
+  padding: 20px;
+  border: 10px solid black;
+}
