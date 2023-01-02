@@ -124,9 +124,9 @@ body {
   color: black;
   font-size: 20px;
   padding-right: 45px;
-
 }
-.secondp,.thirdp{
+.secondp,
+.thirdp {
   padding-left: 60px;
 }
 .threeparagraphs button {
@@ -225,8 +225,64 @@ body {
   padding-left: 5px;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) and (min-width: 768px){
   .landing-page100percent {
+    
+  }
+} */
+@media only screen and (max-width: 768px) {
+  /* Stack the "Desktop Start Text" div and the "Space Hero Image" div on top of each other */
+  .desktopstarttext,
+  .spaceheroimage {
+    display: block;
+    width: 100%;
+  }
+
+  /* Stack the three paragraph blocks horizontally on small screens */
+  .threeparagraphs {
+    display: block;
+    width: 100%;
+  }
+
+  /* Stack the users horizontally on small screens */
+  .users {
+    display: block;
+    width: 100%;
+  }
+  .floatright {
+    display: none;
+  }
+  .floatleft a {
+    padding: 0px;
+    position: absolute;
+    margin: 0;
+    margin-top: -79px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    margin-left: 30px;
+  }
+  .spaceheroimage {
+    background-image: url(/images/banner.jpg);
+    height: 400px;
     width: 768px;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    text-align: center; */
+  }
+  .whitecolorfont{
+    font-size: 30px;
+    text-align: center;
+    /* left: 5px; */
+    position: absolute;
+  }
+  .whitep {
+    font-size: 30px;
+    text-align: center;
+    /* left: 5px; */
+    position: absolute;
+    content: "Small screen text";
+    
   }
 }
