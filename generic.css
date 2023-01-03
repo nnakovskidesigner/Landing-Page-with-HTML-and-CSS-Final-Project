@@ -63,6 +63,7 @@ body {
 }
 .twoimages {
   /* background-color: green; */
+  
   text-align: left;
   /* border: 1px solid black; */
   width: 578px;
@@ -92,6 +93,7 @@ body {
   margin: 0 auto;
   /* background-color: aqua; */
   border-top: 1px solid #9a9a9a;
+  margin-top: 170px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -148,6 +150,16 @@ body {
   }
   .entirepagesection {
     width: 690px;
+  }
+  .footer {
+    width: 1280px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    border-top: 1px solid #9a9a9a;
+    margin-top: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* display: block; */
   }
 
 }
