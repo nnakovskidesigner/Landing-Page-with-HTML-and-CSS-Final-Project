@@ -225,11 +225,6 @@ body {
   padding-left: 5px;
 }
 
-/* @media (max-width: 768px) and (min-width: 768px){
-  .landing-page100percent {
-    
-  }
-} */
 @media only screen and (max-width: 768px) {
   /* Stack the "Desktop Start Text" div and the "Space Hero Image" div on top of each other */
   .desktopstarttext,
