@@ -224,6 +224,9 @@ body {
 .imgpaddingleft {
   padding-left: 5px;
 }
+.hamburger-menu {
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
   /* Stack the "Desktop Start Text" div and the "Space Hero Image" div on top of each other */
@@ -279,5 +282,12 @@ body {
     position: absolute;
     content: "Small screen text";
     
+  }
+  .hamburger-menu {
+    display: block;
+    float: left;
+    left: 2px;
+    top: 2px;
+
   }
 }
