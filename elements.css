@@ -1,0 +1,22 @@
+/* <!-- notes
+  colors to use:
+#5385c1;
+#9a9a9a;
+#5a5a5a; --> */
+.landing-page100percent {
+  width: 100%;
+  /* background-color: red; testing purposes */
+  height: 500px;
+  left: 0px;
+  right: 0px;
+}
+.bluetopheaderline {
+  width: 100%;
+  background-color: #5385c1;
+  height: 10px;
+}
+.desktoptext {
+  width: 1280px;
+  /* background-color: blue; */
+  margin: 0 auto;
+}
