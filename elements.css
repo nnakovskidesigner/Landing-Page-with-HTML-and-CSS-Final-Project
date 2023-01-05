@@ -184,7 +184,8 @@ body {
   /* background-color: pink; */
   width: 33%;
   position: relative;
-}
+  
+} 
 .p1of1 p{
   font-size: 15.5px;
   line-height: 2;
@@ -192,10 +193,13 @@ body {
 .p2of3 p{
   font-size: 15.5px;
   line-height: 2;
+  padding-right: 50px;
+  
 }
 .p3of3 p{
   font-size: 15.5px;
   line-height: 2;
+  padding-right: 50px;
 }
 .twodividedsections {
   height: 2000px;
