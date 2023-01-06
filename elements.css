@@ -221,3 +221,19 @@ body {
   background-color: red;
   float: left;
 }
+
+@media (max-width: 768px) {
+  .topbar {
+    width: 768px;
+  }
+  .entirepagesection {
+    width: 768px;
+  }
+  .elementsheader {
+    width: 755px;
+  }
+  .firstparagraph-sam p{
+    display: block;
+    
+  }
+}
