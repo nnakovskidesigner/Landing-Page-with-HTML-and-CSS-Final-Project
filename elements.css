@@ -202,7 +202,7 @@ body {
   padding-right: 50px;
 }
 .twodividedsections {
-  height: 2000px;
+  height: 3000px;
   width: 100%;
   /* background-color: orange; */
   margin-top: 90px;
@@ -269,6 +269,48 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 .unlistborder-top {
   border-top: #9a9a9a 1px solid;
   padding-top: 14px;
+}
+.iconspngs {
+  width: 34px;
+    margin-right: 5px;
+}
+.icons {
+  /* background-color: red; */
+  margin-left: 28px;
+}
+.definitionspaddingleft {
+  padding-left: 30px;
+}
+.blackishfontcolor {
+  color: black;
+}
+.paddingtop10px {
+  position: relative;
+  margin-top: 33px;
+}
+.defaultbluebutton1 {
+  color: white;
+    background-color: #5385c1;
+    border: none;
+    font-size: 25px;
+    padding: 10px 25px;
+}
+.defaultbluebutton2 {
+  color: white;
+    background-color: #5a5a5a;
+    border: none;
+    font-size: 25px;
+    padding: 10px 25px;
+} 
+.defaultbluebutton3 {
+  color: black;
+    background-color: white;
+    border: 3px solid #5a5a5a;
+    font-size: 25px;
+    padding: 7px 25px;
+}
+.defaultbluebutton2, .defaultbluebutton3 {
+  margin-left: 10px;
 }
 
 
