@@ -394,17 +394,38 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   position: relative;
   height: 200px;
   width: 100%;
-  top: 20px;
+  top: 40px;
   /* background-color: aquamarine; */
+}
+
+.tabletextalign {
+  text-align: left;
+}
+.entiretable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 18px;
+}
+.tablepadding td{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 50px;
+  /* float: left; */
 }
 .table table {
   border-bottom: 1px solid #5a5a5a;
 }
 table tr:nth-child(2n) {
   background-color: #f2f2f2;
+  margin-top: 50px;
 }
 table tr{
   padding-top: 50px;
+}
+.tabletextfloatright td{
+  text-align: right;
+  /* float: right; */
 }
 
 
