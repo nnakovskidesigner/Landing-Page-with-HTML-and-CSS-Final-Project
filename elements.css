@@ -244,7 +244,32 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 .hsbluecolorfont {
   color: #5385c1;
 }
-
+.smallpaddingtop {
+  padding-top: 30px;
+}
+.unorderedlist {
+  float: left;
+  width: 50%;
+  height: 400px;
+  /* background-color: red; */
+}
+.bluecolorfont, .bluefontcolor {
+  color: #5385c1;
+}
+.orderedlists {
+  width: 50%;
+  float: left;
+  height: 300px;
+  /* background-color: green; */
+  /* text-align: left; */
+}
+.orderedlists h4{
+  padding-left: 26px;
+}
+.unlistborder-top {
+  border-top: #9a9a9a 1px solid;
+  padding-top: 14px;
+}
 
 
 
