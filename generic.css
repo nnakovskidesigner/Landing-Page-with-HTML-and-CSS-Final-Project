@@ -129,6 +129,9 @@ body {
 .imgpaddingleft {
   padding-left: 5px;
 }
+.floatlinksright img{
+  display: hidden;
+}
 @media (max-width: 768px) {
   
   .entirepagesection h1 {

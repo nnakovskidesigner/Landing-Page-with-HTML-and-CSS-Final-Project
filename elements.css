@@ -204,24 +204,60 @@ body {
 .twodividedsections {
   height: 2000px;
   width: 100%;
-  background-color: orange;
+  /* background-color: orange; */
   margin-top: 90px;
-  border-top: 1px solid black;
+  border-top: 1px solid #9a9a9a;
 }
 .leftsection {
   margin-right: 5%;
   width: 45%;
   height: 100%;
-  background-color: green;
+  /* background-color: green; */
   float: left;
 }
 .rightsection {
   width: 50%;
   height: 100%;
-  background-color: red;
+  /* background-color: red; */
   float: left;
 }
+.precode, .xmp {
+  border: 0.5px solid grey;
+  display: inline;
+  background-color: #f7f7f7;
+}
+.firstleftsection {
+  border-bottom: 1px solid #9a9a9a;
+}
+div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings h6 {
+  color: #5385c1;
+}
+.headings {
+  border-bottom: 1px solid #9a9a9a;
+}
+.paddingtopp{
+  padding-top: 50px;
+}
+.subtitleheading h3 {
+  padding-top: 30px;
+}
+.hsbluecolorfont {
+  color: #5385c1;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 768px) {
   .topbar {
     width: 768px;
