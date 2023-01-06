@@ -314,6 +314,8 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 }
 .leftbuttonsfirstmargintop {
   margin-bottom: 20px;
+  /* float: left; */
+  /* background-color: cornflowerblue; */
 }
 
 
@@ -344,15 +346,16 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 .second-defaultbluebutton1, .second-defaultbluebutton2, .second-defaultbluebutton3 {
   margin-top: 30px;
   
-  /* margin-right: 10px; */
+  margin-right: 10px;
   font-size: 15px;
   /* padding: 5px 25px; */
 }
 .twobuttonsdividedsectionsleft-right {
-  width: 50%;
+  width: 100%;
   background-color: red;
   height: 300px;
   margin-top: 30px;
+  float: left;
 }
 .defaultbluebutton2-2, .defaultbluebutton3-2 {
   margin-left: 0;
@@ -361,7 +364,50 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   width: 50%;
   height: 300px;
   background-color: orange;
+  float: left;
 }
+.rightwithin-leftsection {
+  /* background-color: green; */
+  /* width: 50%; */
+  float: right;
+  position: relative;
+  top: -168px;
+  left: -32px;
+}
+.rightbuttons-section {
+  width: 50%;
+  background-color: yellow;
+  height: 300px;
+  float: left;
+  /* padding-left: 30px; */
+}
+.blockquote {
+  margin-top: 30px;
+}
+.blockquote blockquote{
+  border-left: 5px solid #9a9a9a;
+  padding-left: 20px;
+  float: left;
+  margin-left: 0px;
+}
+.table {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  top: 20px;
+  /* background-color: aquamarine; */
+}
+.table table {
+  border-bottom: 1px solid #5a5a5a;
+}
+table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+table tr{
+  padding-top: 50px;
+}
+
+
 
 
 
