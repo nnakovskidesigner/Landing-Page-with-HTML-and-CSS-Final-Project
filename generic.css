@@ -5,7 +5,7 @@ body {
   /* float: right; */
   position: absolute;
 }
-.right-hamburgermenu img{
+.right-hamburgermenu img {
   width: 500px;
 }
 .topbar {
@@ -70,12 +70,12 @@ body {
 }
 .twotextparagraphs {
   text-align: left;
-  color: green;
+  /* color: green; */
   font-size: 18px;
 }
 .twoimages {
   /* background-color: green; */
-  
+
   text-align: left;
   /* border: 1px solid black; */
   width: 578px;
@@ -129,11 +129,10 @@ body {
 .imgpaddingleft {
   padding-left: 5px;
 }
-.floatlinksright img{
+.floatlinksright img {
   display: hidden;
 }
 @media (max-width: 768px) {
-  
   .entirepagesection h1 {
     text-align: center;
     color: #5385c1;
@@ -154,9 +153,9 @@ body {
     /* float: left; */
 
     position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   .topbaritems {
     width: 768px;
@@ -172,7 +171,7 @@ body {
   }
   .topbaritems {
     width: 690px;
-    background-color:
+    background-color: ;
   }
   .entirepagesection {
     width: 690px;
@@ -187,7 +186,6 @@ body {
     padding-bottom: 50px;
     /* display: block; */
   }
-
 }
 
 /* Medium devices (tablets, 768px and up) */
