@@ -1,13 +1,6 @@
 body {
   font-family: "Raleway";
 }
-.right-hamburgermenu {
-  /* float: right; */
-  position: absolute;
-}
-.right-hamburgermenu img {
-  width: 500px;
-}
 .topbar {
   width: 100%;
   height: 45px;
@@ -129,9 +122,20 @@ body {
 .imgpaddingleft {
   padding-left: 5px;
 }
-.floatlinksright img {
-  display: hidden;
+
+
+.hamburgermenuimg {
+  float: right;
+  position: absolute;
+  margin: 0;
+  display: none;
+  /* border: 1px solid black; */
 }
+
+
+
+
+
 @media (max-width: 768px) {
   .entirepagesection h1 {
     text-align: center;
@@ -166,9 +170,17 @@ body {
   .twotextparagraphs {
     text-align: center;
   }
-  .floatlinksright {
+  .hide{
     display: none;
   }
+
+
+
+  
+
+
+
+
   .topbaritems {
     width: 690px;
     background-color: ;
@@ -186,6 +198,14 @@ body {
     padding-bottom: 50px;
     /* display: block; */
   }
+  
+  .hamburgermenuimg {
+    display: block;
+    border: 5px solid black;
+    float: right;
+    margin-left: 50px;
+  }
+  
 }
 
 /* Medium devices (tablets, 768px and up) */
