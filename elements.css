@@ -1,13 +1,11 @@
-
 body {
   font-family: "Raleway";
-  
 }
 .right-hamburgermenu {
   /* float: right; */
   position: absolute;
 }
-.right-hamburgermenu img{
+.right-hamburgermenu img {
   width: 500px;
 }
 .topbar {
@@ -61,13 +59,13 @@ body {
   top: 24px;
   position: relative;
 }
-.h1elements{
+.h1elements {
   text-align: center;
   padding-top: 100px;
   color: #5385c1;
   font-size: 3em;
 }
-.aliquamp{
+.aliquamp {
   text-align: center;
   margin-top: -10px;
   position: relative;
@@ -108,7 +106,7 @@ body {
   letter-spacing: 2;
   line-height: 1.5;
 }
-.secondparagraph-magna{
+.secondparagraph-magna {
   line-height: 1.5;
   color: #9a9a9a;
   float: left;
@@ -118,26 +116,26 @@ body {
   letter-spacing: 2;
   /* float: left; */
 }
-.firstparagraph-sam h1{
+.firstparagraph-sam h1 {
   color: #5385c1;
   font-size: 25px;
 }
-.firstparagraph-sam p{
+.firstparagraph-sam p {
   font-size: 17.6px;
   padding-right: 40px;
 }
 
-
-.secondparagraph-magna h1{
+.secondparagraph-magna h1 {
   color: #5385c1;
   font-size: 25px;
 }
-.secondparagraph-magna p{
+.secondparagraph-magna p {
   line-height: 1.7;
   font-size: 17.6px;
   padding-right: 40px;
 }
-.clearfloat, .clearfloats {
+.clearfloat,
+.clearfloats {
   clear: both;
 }
 .threeparagraphshere {
@@ -148,7 +146,7 @@ body {
   /* padding-bottom: 10px; */
   /* border-bottom: 1px solid black; */
 }
-.lightbluetextcolorforheader{
+.lightbluetextcolorforheader {
   font-size: 24px;
   color: #5385c1;
 }
@@ -158,17 +156,15 @@ body {
   width: 33%;
   float: left;
   font-size: 15.5px;
-  
-  
 }
-.p1of3 p{
+.p1of3 p {
   padding-right: 20px;
   line-height: 2;
 }
-.p2of3 p{
+.p2of3 p {
   padding-right: 20px;
 }
-.p3of3 p{
+.p3of3 p {
   padding-right: 20px;
 }
 .p2of3 {
@@ -184,19 +180,17 @@ body {
   /* background-color: pink; */
   width: 33%;
   position: relative;
-  
-} 
-.p1of1 p{
+}
+.p1of1 p {
   font-size: 15.5px;
   line-height: 2;
 }
-.p2of3 p{
+.p2of3 p {
   font-size: 15.5px;
   line-height: 2;
   padding-right: 50px;
-  
 }
-.p3of3 p{
+.p3of3 p {
   font-size: 15.5px;
   line-height: 2;
   padding-right: 50px;
@@ -221,7 +215,8 @@ body {
   /* background-color: red; */
   float: left;
 }
-.precode, .xmp {
+.precode,
+.xmp {
   border: 0.5px solid grey;
   display: inline;
   background-color: #f7f7f7;
@@ -229,13 +224,17 @@ body {
 .firstleftsection {
   border-bottom: 1px solid #9a9a9a;
 }
-div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings h6 {
+div.headings h2,
+div.headings h3,
+div.headings h4,
+div.headings h5,
+div.headings h6 {
   color: #5385c1;
 }
 .headings {
   border-bottom: 1px solid #9a9a9a;
 }
-.paddingtopp{
+.paddingtopp {
   padding-top: 50px;
 }
 .subtitleheading h3 {
@@ -253,7 +252,8 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   height: 400px;
   /* background-color: red; */
 }
-.bluecolorfont, .bluefontcolor {
+.bluecolorfont,
+.bluefontcolor {
   color: #5385c1;
 }
 .orderedlists {
@@ -263,7 +263,7 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   /* background-color: green; */
   /* text-align: left; */
 }
-.orderedlists h4{
+.orderedlists h4 {
   padding-left: 26px;
 }
 .unlistborder-top {
@@ -272,7 +272,7 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 }
 .iconspngs {
   width: 34px;
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .icons {
   /* background-color: red; */
@@ -290,26 +290,27 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 }
 .defaultbluebutton1 {
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
 }
 .defaultbluebutton2 {
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
 .defaultbluebutton3 {
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 25px;
-    padding: 7px 22px;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 22px;
 }
-.defaultbluebutton2, .defaultbluebutton3 {
+.defaultbluebutton2,
+.defaultbluebutton3 {
   margin-left: 20px;
 }
 .leftbuttonsfirstmargintop {
@@ -318,34 +319,36 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   /* background-color: cornflowerblue; */
 }
 
-
 .second-defaultbluebutton1 {
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 10px 20px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 20px;
 }
 .second-defaultbluebutton2 {
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 20px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 20px;
+}
 .second-defaultbluebutton3 {
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 25px;
-    padding: 7px 18px;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 18px;
 }
-.defaultbluebutton2, .defaultbluebutton3 {
+.defaultbluebutton2,
+.defaultbluebutton3 {
   margin-left: 10px;
 }
-.second-defaultbluebutton1, .second-defaultbluebutton2, .second-defaultbluebutton3 {
+.second-defaultbluebutton1,
+.second-defaultbluebutton2,
+.second-defaultbluebutton3 {
   margin-top: 30px;
-  
+
   margin-right: 10px;
   font-size: 15px;
   /* padding: 5px 25px; */
@@ -357,7 +360,8 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
   margin-top: 30px;
   float: left;
 }
-.defaultbluebutton2-2, .defaultbluebutton3-2 {
+.defaultbluebutton2-2,
+.defaultbluebutton3-2 {
   margin-left: 0;
 }
 .left-within-left {
@@ -384,7 +388,7 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 .blockquote {
   margin-top: 30px;
 }
-.blockquote blockquote{
+.blockquote blockquote {
   border-left: 5px solid #9a9a9a;
   padding-left: 20px;
   float: left;
@@ -401,12 +405,12 @@ div.headings h2, div.headings h3, div.headings h4, div.headings h5, div.headings
 .tabletextalign {
   text-align: left;
 }
-.entiretable{
+.entiretable {
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 18px;
 }
-.tablepadding td{
+.tablepadding td {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 0px;
@@ -420,172 +424,218 @@ table tr:nth-child(2n) {
   background-color: #f2f2f2;
   margin-top: 50px;
 }
-table tr{
+table tr {
   padding-top: 50px;
 }
-.tabletextfloatright td{
+.tabletextfloatright td {
   text-align: right;
   /* float: right; */
 }
 
-
 /* stylingrightsection from here below */
-
-
 
 .rightbuttons-special {
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
 }
 .rightbuttons-default {
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
 .rightbuttons-alternate {
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 25px;
-    padding: 7px 22px;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 22px;
 }
-.rightbuttons-default, .rightbuttons-alternate {
+.rightbuttons-default,
+.rightbuttons-alternate {
   margin-left: 10px;
 }
 
 .right-buttons-secondrow {
-
-margin-top: 45px;
+  margin-top: 45px;
 }
 
 .rightbuttons-big {
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 20px 38px;
-    font-size: 28px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 20px 38px;
+  font-size: 28px;
 }
 .rightbuttons-second-default {
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
 .rightbuttons-small {
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 19px;
-    padding: 7px 22px;
-    bottom: 2px;
-    position: relative;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 19px;
+  padding: 7px 22px;
+  bottom: 2px;
+  position: relative;
 }
-.rightbuttons-second-default, .rightbuttons-small {
+.rightbuttons-second-default,
+.rightbuttons-small {
   margin-left: 10px;
 }
 
-
 /* fitbuttons below */
-
 
 .fitbluebutton {
   width: 193px;
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
 }
 .fitgreybutton {
   width: 193px;
   width: 193px;
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
 .fittransparentbutton {
   width: 193px;
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 25px;
-    padding: 7px 22px;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 22px;
 }
-.fitgreybutton, .fittransparentbutton {
+.fitgreybutton,
+.fittransparentbutton {
   margin-left: 10px;
 }
-.fitbluebutton, .fitgreybutton, .fittransparentbutton {
+.fitbluebutton,
+.fitgreybutton,
+.fittransparentbutton {
   width: 203px;
   font-size: 25px;
 }
 .fitbuttons {
-
   margin-top: 45px;
-  }
-
+}
 
 /* fit + small buttons  */
-
-
 
 .fitbluebuttonsmall {
   width: 193px;
   color: white;
-    background-color: #5385c1;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
 }
 .fitgreybuttonsmall {
   width: 193px;
   width: 193px;
   color: white;
-    background-color: #5a5a5a;
-    border: none;
-    font-size: 25px;
-    padding: 10px 25px;
-} 
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
 .fittransparentbuttonsmall {
   width: 193px;
   color: black;
-    background-color: white;
-    border: 3px solid #5a5a5a;
-    font-size: 25px;
-    padding: 7px 22px;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 22px;
 }
-.fitgreybuttonsmall, .fittransparentbuttonsmall {
+.fitgreybuttonsmall,
+.fittransparentbuttonsmall {
   margin-left: 2px;
 }
-.fitbluebuttonsmall, .fitgreybuttonsmall, .fittransparentbuttonsmall {
+.fitbluebuttonsmall,
+.fitgreybuttonsmall,
+.fittransparentbuttonsmall {
   width: 209px;
   font-size: 19px;
 }
 .fitbuttonssmall {
-
   margin-top: 35px;
-  }
+}
 
+/* below are icon buttons */
+.iconbuttons {
+  margin-top: 35px;
+}
+.searchblueiconbutton {
+  background-color: #5385c1;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 12px 25px;
+}
+.searchblueiconbutton img {
+  /* padding-left: px; */
+  padding-right: 8px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.downloadgreybutton {
+  background-color: #5a5a5a;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 12px 25px;
+}
+.donetransparenticon {
+  background-color: transparent;
+  font-size: 20px;
+  color: #5a5a5a;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 9px 22px;
+  border: 3px solid #5a5a5a;
+}
+.downloadgreybutton img {
+  /* padding-left: px; */
+  padding-right: 8px;
+}
+.donetransparenticon img {
+  /* padding-left: px; */
+  padding-right: 8px;
+}
+.downloadgreybutton, .donetransparenticon {
+  margin-left: 10px;
+}
+/* greybuttons */
+.greybutton1, .greybutton2, .greybutton3 {
+  margin-top: 35px;
+  margin-right: 15px;
+  background-color: #9a9a9a;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 12px 23px;
+  /* border: 3px solid #5a5a5a; */
+}
 
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -599,8 +649,7 @@ margin-top: 45px;
   .elementsheader {
     width: 755px;
   }
-  .firstparagraph-sam p{
+  .firstparagraph-sam p {
     display: block;
-    
   }
 }
