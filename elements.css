@@ -199,7 +199,7 @@ body {
   height: 3000px;
   width: 100%;
   /* background-color: orange; */
-  margin-top: 90px;
+  margin-top: 30px;
   border-top: 1px solid #9a9a9a;
 }
 .leftsection {
@@ -395,6 +395,7 @@ div.headings h6 {
   margin-left: 0px;
 }
 .table {
+  float: left;
   position: relative;
   height: 200px;
   width: 100%;
@@ -431,6 +432,122 @@ table tr {
   text-align: right;
   /* float: right; */
 }
+/* SECONDD TABLEEEEEEEEEEEEEE! */
+.secondtable {
+  float: left;
+  margin-top: 300px;
+}
+.secondtable {
+  float: left;
+  position: relative;
+  height: 200px;
+  width: 100%;
+  top: 40px;
+  /* background-color: aquamarine; */
+}
+
+.tabletextalign {
+  text-align: left;
+}
+.entiretable {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-size: 18px;
+}
+.tablepadding td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 0px;
+  padding-left: 50px;
+  /* float: left; */
+}
+.table table {
+  border-bottom: 1px solid #5a5a5a;
+}
+.secondtable tr:nth-child(2n) {
+  background-color: #f2f2f2;
+  margin-top: 50px;
+}
+table tr {
+  padding-top: 50px;
+}
+.tabletextfloatright td {
+  text-align: right;
+  /* float: right; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* stylingrightsection from here below */
 
@@ -732,15 +849,51 @@ table tr {
 
 .preformatted {
   margin-top: 30px;
+  text-align: left !important; 
 }
 
-.preformattedwrapped {
+.preformattedwrapped{
+  white-space: pre-line;
+  margin-left: 0 !important; 
   background-color: #9090906c;
-  line-height: 25px;
+  line-height: 20px;
   border: 1px solid #9a9a9a;
-  padding-left: 5px;
+  padding-left: 25px;
   text-align: left;
 }
+
+
+
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 1280px;
+  margin: 0 auto;
+  background-color: aqua;
+  border-top: 1px solid #9a9a9a;
+  /* margin-top: 170px;
+  padding-top: 50px; */
+  padding-bottom: 50px;
+}
+.footer p {
+  /* padding-left:313px; */
+  color: #5a5a5a;
+  display: inline;
+}
+.socialmediaicons {
+  float: right;
+  /* margin-right: 311px; */
+  display: inline;
+  /* padding-left: 10px; */
+}
+.imgpaddingleft {
+  padding-left: 5px;
+}
+
 
 
 
