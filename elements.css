@@ -668,42 +668,35 @@ table tr {
   font-size: 31px;
   
 }
-.radiobutton2, .radiobutton3 {
-  margin-left: 10px;
+.radiobutton3 {
+  background-color: #5a5a5a;
+}
+.smallimages {
+  width: 203.8px;
   
 }
-.radiobutton2:checked {
-  background-image: url('/radiobuttons/checked.png');
-  background-size: cover;
+.imagemgleft {
+  margin-left: 10px;
 }
-input[type="radio"] {
-  background-image: url('path/to/image.png');
-  background-size: cover;
+.smallimagesrow {
+  margin-top: 25px;
 }
-.radiobutton3 [type:"radio"] {
-  width:1000px
-}
-.radiobutton3 input{
-  background-color: green;
-  background-image:url(/radiobuttons/default.png);
+.smallimagesrow2, .smallimagesrow3 {
+  margin-top: 15px;
 }
 
-.radio-buttons input[type="radio"] {
-  /* Hide the default radio button */
-  display: none;
-}
-.radio-buttons input[type="radio"] + label {
-  background-image: url('/radiobuttons/default.png');
-  background-size: cover;
-  /* display: inline-block; */
-  width: 1px;
-  height: 20px;
+
+
+
+
+
+
+
+.mainpicture {
+  width: 100%;
 }
 
-.radio-buttons input[type="radio"]:checked + label {
-  background-image: url('/radiobuttons/checked.png');
-  background-size: cover;
-}
+
 
 
 
