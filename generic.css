@@ -74,15 +74,13 @@ body {
   text-align: left;
   /* border: 1px solid black; */
   width: 578px;
-  height: 500px;
-  float: left;
+  height: 403px;
 }
 .image-1 {
   /* background-color: red; */
+  float: left;
 }
-.image-2 {
-  background-color: blue;
-}
+
 .floatrightp {
   float: right;
 }
@@ -125,21 +123,9 @@ body {
   padding-left: 5px;
 }
 
-
-.hamburgermenuimg {
-  width: 30px;
-  float: left;
-  position: absolute;
-  margin: 0;
-  display: none;
-  /* border: 1px solid black; */
-}
 .hideburgermenu {
   display: none;
 }
-
-
-
 
 @media (max-width: 768px) {
   .topbar {
@@ -151,7 +137,7 @@ body {
   .topbaritems {
     max-width: 690px;
     background-color: red;
-    
+
     width: 100%;
   }
   .entirepagesection {
@@ -172,60 +158,60 @@ body {
     text-align: center;
     margin-bottom: 35px;
   }
-  .twoimages {
-    /* margin: 0 auto; */
-    /* display: block; */
-    /* width: 768px; */
-    /* background-color: #5385c1; */
+  .image-2 {
+    width: 690px;
+    height: 500px;
+    /* background-color: green; */
+    /* float: left; */
+    margin-top: 35px;
+    margin: 0 auto;
   }
   .image-1 {
-    margin: 0 auto;
     width: 690px;
-    /* background-color: violet; */
-    display: block;
     margin: 0 auto;
-    width: 690px;
     position: relative;
+    /* background-color: yellow; */
+    clear: both;
+    float: none;
+    height: 433px;
   }
-  .image-1 img{
-    width: 690px;
+  .image-1 img {
+    width: 100%;
   }
-  .image-1 h1{
-    padding-top: 10px;
-    width: 690px;
+  .image-1 h1 {
     text-align: center;
   }
-  .image-1 p{
-    width: 690px;
+  .image-1 p {
     text-align: center;
   }
-  .image-1 button{
-    width: 690px;
+  .image1button {
+    width: 100%;
+    height: 55px;
   }
 
+
+
   .image-2 {
-    /* position: relative;
-    border: 10px solid black; */
-    display: block;
-    background-color: thistle;
-    display: block;
+    width: 690px;
     margin: 0 auto;
-    width: 690px;
+    position: relative;
+    /* background-color: yellow; */
+    clear: both;
+    float: none;
+    height: 433px;
   }
-  .image-2 img{
-    width: 690px;
+  .image-2 img {
+    width: 100%;
   }
-  .image-2 h1{
-    padding-top: 10px;
-    width: 690px;
+  .image-2 h1 {
     text-align: center;
   }
-  .image-2 p{
-    width: 690px;
+  .image-2 p {
     text-align: center;
   }
-  .image-2 button{
-    width: 690px;
+  .image2button {
+    width: 100%;
+    height: 55px;
   }
 }
 
