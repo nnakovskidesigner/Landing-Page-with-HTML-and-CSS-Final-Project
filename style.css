@@ -229,65 +229,33 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  /* Stack the "Desktop Start Text" div and the "Space Hero Image" div on top of each other */
-  .desktopstarttext,
+  /* the bluetopbar at the beginning is okay dont chagne it because its already 100% */
+  .desktoptext {
+    width: 690px;
+  }
   .spaceheroimage {
-    display: block;
-    width: 100%;
+    width: 768px;
+    height: 500px;
   }
-
-  /* Stack the three paragraph blocks horizontally on small screens */
-  .threeparagraphs {
-    display: block;
-    width: 100%;
+  .desktopstarttext {
+    width: 690px;
   }
-
-  /* Stack the users horizontally on small screens */
-  .users {
-    display: block;
-    width: 100%;
+  .hideinmobile {
+    display: hidden;
   }
-  .floatright {
+  .floatright a{
     display: none;
   }
-  .floatleft a {
-    padding: 0px;
-    position: absolute;
-    margin: 0;
-    margin-top: -79px;
+  .boldsemos{
     font-size: 20px;
-    /* font-weight: bold; */
-    margin-left: 30px;
-  }
-  .spaceheroimage {
-    background-image: url(/images/banner.jpg);
-    height: 400px;
-    width: 768px;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top;
-    text-align: center; */
-  }
-  .whitecolorfont{
-    font-size: 30px;
-    text-align: center;
-    /* left: 5px; */
-    position: absolute;
-  }
-  .whitep {
-    font-size: 30px;
-    text-align: center;
-    /* left: 5px; */
-    position: absolute;
-    content: "Small screen text";
-    
+    top: -60px;
+    position: relative;
   }
   .hamburger-menu {
-    display: block;
-    float: left;
-    left: 2px;
-    top: 2px;
-
+    display: inline;
+    width: 20px;
+    position: relative;
+    top: -57px;
   }
+  
 }
