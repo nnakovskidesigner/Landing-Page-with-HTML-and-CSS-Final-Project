@@ -53,7 +53,6 @@ body {
 .entirepagesection h1 {
   text-align: center;
   color: #5385c1;
-  padding-top: 80px;
   font-size: 45px;
 }
 .aliquam {
@@ -104,7 +103,7 @@ body {
   margin: 0 auto;
   /* background-color: aqua; */
   border-top: 1px solid #9a9a9a;
-  margin-top: 273px;
+  margin-top: 40px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -128,6 +127,12 @@ body {
 }
 
 @media (max-width: 768px) {
+  .hideburgermenu {
+    display: inline;
+    width: 23px;
+    margin-top: 1px;
+    margin-right: 11px;
+  }
   .topbar {
     width: 768px;
   }
@@ -136,7 +141,7 @@ body {
   }
   .topbaritems {
     max-width: 690px;
-    background-color: red;
+    /* background-color: red; */
 
     width: 100%;
   }
@@ -144,11 +149,10 @@ body {
     width: 768px;
     top: 65px;
     position: relative;
+    margin-top: 220px;
     /* text-align: center; */
   }
-  .entirepagesection h1 {
-    padding-top: 0px;
-  }
+
   .firsttextparagraph {
     width: 690px;
     margin: 0 auto;
@@ -200,6 +204,7 @@ body {
     clear: both;
     float: none;
     height: 433px;
+    margin-top: 25px;
   }
   .image-2 img {
     width: 100%;
