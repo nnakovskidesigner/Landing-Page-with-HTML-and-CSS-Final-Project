@@ -32,7 +32,7 @@ body {
   /* background-color: white; */
 }
 .bluepeoplesection {
-  height: 780px;
+  height: 770px;
   width: 100%;
   background-color: #5385c1;
 }
@@ -256,6 +256,72 @@ body {
     width: 20px;
     position: relative;
     top: -57px;
+  }
+  .uldesktopv {
+    /* background-color: red; */
+    width: 690px;
+    margin: 0 auto;
+  }
+  .firstp {
+    /* clear: both; */
+    width: 670px;
+    border-right: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    /* float: left; */
+    /* position: relative; */
+    /* background-color: green; */
+  }
+  .secondp {
+    /* clear: both; */
+    width: 619px;
+    border-right: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    /* float: left; */
+    border-bottom: 1px solid #9a9a9a;
+    margin-bottom: 50px;
+    
+  }
+  .thirdp {
+    clear: both;
+    width: 619px;
+    border-right: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+    
+    
+  }
+  .ultextareas {
+    height: 861px;
+    width: 100%;
+    /* background-color: white; */
+}
+  .bluepeoplesection {
+    /* top: 500px; */
+    position: relative;
+    height: 1000px;
+  }
+  .bluepeople1280 {
+    width: 768px;
+    text-align: center;
+  }
+  .bluepeople1280 h1{
+    width: 768px;
+    text-align: center;
+  }
+  .users {
+    width: 482px;
+    border: 1px solid #9a9a9a;
+    height: 473px;
+    float: left;
+    margin-right: 58px;
+    text-align: center;
+    display: block;
   }
   
 }
