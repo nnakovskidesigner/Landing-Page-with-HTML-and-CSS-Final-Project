@@ -315,13 +315,31 @@ body {
     text-align: center;
   }
   .users {
+    position: relative;
+    margin: 0 auto;
     width: 482px;
     border: 1px solid #9a9a9a;
     height: 473px;
-    float: left;
+    /* float: left; */
     margin-right: 58px;
     text-align: center;
     display: block;
+  }
+  .bluepeoplesection {
+    height: 3000px;
+    width: 100%;
+    background-color: #5385c1;
+  }
+  .nuncdignissim {
+    width: 960px;
+  }
+  .nunc1280px {
+    width: 768px;
+    height: 685px;
+    margin: 0 auto;
+  }
+  .nunc1280px h1{
+    width: 768px;
   }
   
 }
