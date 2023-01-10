@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
 
-  max-width: 768px;
+  /* max-width: 768px; */
 }
 .landing-page100percent {
   width: 100%;
@@ -237,6 +237,9 @@ body {
 
 @media only screen and (max-width: 768px) {
   /* the bluetopbar at the beginning is okay dont chagne it because its already 100% */
+  .body {
+    max-width: 768px;
+  }
   .desktoptext {
     width: 690px;
   }
@@ -250,10 +253,10 @@ body {
   .hideinmobile {
     display: hidden;
   }
-  .floatright a{
+  .floatright a {
     display: none;
   }
-  .boldsemos{
+  .boldsemos {
     font-size: 20px;
     top: -60px;
     position: relative;
@@ -291,7 +294,6 @@ body {
     /* float: left; */
     border-bottom: 1px solid #9a9a9a;
     margin-bottom: 50px;
-    
   }
   .thirdp {
     clear: both;
@@ -300,15 +302,12 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    
-    
-    
   }
   .ultextareas {
     height: 861px;
     width: 100%;
     /* background-color: white; */
-}
+  }
   .bluepeoplesection {
     /* top: 500px; */
     position: relative;
@@ -318,7 +317,7 @@ body {
     width: 768px;
     text-align: center;
   }
-  .bluepeople1280 h1{
+  .bluepeople1280 h1 {
     width: 768px;
     text-align: center;
   }
@@ -342,15 +341,35 @@ body {
     background-color: #5385c1;
   }
   .nuncdignissim {
-    width: 960px;
+    width: 768px;
+  }
+  .nuncdignih1 {
+    /* left: 50px; */
+    position: relative;
   }
   .nunc1280px {
     width: 768px;
     height: 685px;
     margin: 0 auto;
   }
-  .nunc1280px h1{
+  .nunc1280px h1 {
     width: 768px;
   }
-  
+
+  .nunc1280px p{
+    margin-top: -23px;
+  }
+
+  .twoimages {
+    background-color: green;
+    text-align: left;
+    /* border: 1px solid black; */
+    width: 690px;
+    height: 500px;
+    /* float: left; */
+    margin: auto;
+    /* left: 20%; */
+    position: relative;
+    clear: both;
+}
 }
