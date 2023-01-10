@@ -142,23 +142,7 @@ body {
 .norightborder {
   border-right: none;
 }
-.bluepeoplesection h1 {
-  text-align: center;
-  padding-top: 70px;
-  font-size: 50px;
-  color: white;
-}
-.bluepeoplesection p {
-  text-align: center;
-  font-size: 25px;
-  color: white;
-}
-.bluepeople1280 {
-  width: 1280px;
-  height: 780px;
-  /* background-color: red; */
-  margin: 0 auto;
-}
+
 .users {
   width: 274px;
   border: 1px solid #9a9a9a;
@@ -330,21 +314,7 @@ body {
     text-align: center;
     display: block;
   }
-  .bluepeoplesection {
-    height: 3000px;
-    width: 100%;
-    background-color: #5385c1;
-  }
-  .nuncdignissim {
-    width: 960px;
-  }
-  .nunc1280px {
-    width: 768px;
-    height: 685px;
-    margin: 0 auto;
-  }
-  .nunc1280px h1{
-    width: 768px;
-  }
+
+
   
 }
