@@ -3,6 +3,9 @@
 body {
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 10 !important;
+
+  margin: 0;
+  padding: 0;
 }
 .landing-page100percent {
   width: 100%;
@@ -209,6 +212,8 @@ body {
   border-top: 1px solid #9a9a9a;
   padding-top: 50px;
   padding-bottom: 50px;
+  clear: both;
+  margin-left: 7.6%;
 }
 .footer p {
   /* padding-left:313px; */
