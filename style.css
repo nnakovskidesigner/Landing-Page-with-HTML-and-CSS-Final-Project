@@ -6,6 +6,8 @@ body {
 
   margin: 0;
   padding: 0;
+
+  max-width: 768px;
 }
 .landing-page100percent {
   width: 100%;
@@ -213,7 +215,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   clear: both;
-  margin-left: 7.6%;
+  /* margin-left: 7.6%; */
 }
 .footer p {
   /* padding-left:313px; */
@@ -272,18 +274,19 @@ body {
     width: 670px;
     border-right: none;
     text-align: center;
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     /* float: left; */
     /* position: relative; */
-    /* background-color: green; */
+    background-color: green;
   }
   .secondp {
+    background-color: grey;
     /* clear: both; */
-    width: 619px;
+    width: 670px;
     border-right: none;
     text-align: center;
-    display: block;
+    /* display: block; */
     margin: 0 auto;
     /* float: left; */
     border-bottom: 1px solid #9a9a9a;
@@ -329,9 +332,12 @@ body {
     margin-right: 58px;
     text-align: center;
     display: block;
+
+    margin-left: 20%;
+    margin-bottom: 43px;
   }
   .bluepeoplesection {
-    height: 3000px;
+    height: 2326px;
     width: 100%;
     background-color: #5385c1;
   }
