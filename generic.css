@@ -54,7 +54,6 @@ body {
   text-align: center;
   color: #5385c1;
   font-size: 45px;
-  
 }
 .paddingtop200px {
   padding-top: 120px;
@@ -130,6 +129,9 @@ body {
 .hideburgermenu {
   display: none;
 }
+.paddinglinkleft {
+  padding-left: 10px;
+}
 
 @media (max-width: 768px) {
   .hideburgermenu {
@@ -157,7 +159,7 @@ body {
     width: 768px;
     top: 45px; /* this is causing errors , not enabling the responsivesness */
     position: relative;
-    margin-top: 60px;  /*this si wrong fix it */
+    margin-top: 60px; /*this si wrong fix it */
     /* text-align: center; */
   }
 
@@ -228,16 +230,37 @@ body {
     height: 55px;
   }
   .footer {
-    position: absolute;
+    position: relative;
     margin-bottom: 0px;
     width: 690px;
     margin: auto;
-    bottom: -1100px;
+    bottom: -1070px;
     margin-left: 40px;
   }
   .paddingtop200px {
     padding-top: 0px;
-} 
+  }
+
+  .socialmediaicons {
+    position: relative;
+    float: left;
+    margin-top: -45px;
+    margin-left: 286px;
+    /* margin-right: 311px; */
+    display: inline;
+    /* padding-left: 10px; */
+  }
+  .footer p {
+    padding-left: 175px;
+    color: #5a5a5a;
+    display: inline;
+    
+    margin-top: 50px;
+    margin: 0 auto;
+
+    top: 22px;
+    position: relative;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
