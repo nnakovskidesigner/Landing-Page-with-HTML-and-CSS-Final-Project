@@ -189,6 +189,7 @@ body {
   width: 578px;
   height: 500px;
   float: left;
+  margin-bottom: 9%;
 }
 .floatrightp {
   float: right;
@@ -286,7 +287,7 @@ body {
   .secondp {
     background-color: grey;
     /* clear: both; */
-    width: 670px;
+    width: 571px;
     border-right: none;
     text-align: center;
     /* display: block; */
@@ -302,6 +303,7 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
+    background-color: yellow;
   }
   .ultextareas {
     height: 861px;
@@ -353,7 +355,7 @@ body {
     margin: 0 auto;
   }
   .nunc1280px h1 {
-    width: 768px;
+    width: 639px;
   }
 
   .nunc1280px p{
