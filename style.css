@@ -239,7 +239,8 @@ body {
 @media only screen and (max-width: 768px) {
   /* the bluetopbar at the beginning is okay dont chagne it because its already 100% */
   .body {
-    max-width: 768px;
+    /* max-width: 768px; */
+    width: 768px;
   }
   .desktoptext {
     width: 690px;
@@ -275,7 +276,7 @@ body {
   }
   .firstp {
     /* clear: both; */
-    width: 670px;
+    /* width: 670px; */
     border-right: none;
     text-align: center;
     /* display: block; */
@@ -283,6 +284,7 @@ body {
     /* float: left; */
     /* position: relative; */
     background-color: green;
+    height: 200px;
   }
   .secondp {
     background-color: grey;
@@ -294,7 +296,8 @@ body {
     margin: 0 auto;
     /* float: left; */
     border-bottom: 1px solid #9a9a9a;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    height: 200px;
   }
   .thirdp {
     clear: both;
@@ -304,6 +307,7 @@ body {
     display: block;
     margin: 0 auto;
     background-color: yellow;
+    height: 200px;
   }
   .ultextareas {
     height: 861px;
@@ -393,30 +397,104 @@ body {
   .image-2 img {
     width: 690px;
   }
-  .image-1 button{
+  .image-1 button {
     width: 690px;
     height: 51px;
   }
-  .image-2 button{
+  .image-2 button {
     width: 690px;
     height: 51px;
   }
-  .image-1 h1{
+  .image-1 h1 {
     text-align: center;
     text-align: center;
     padding-top: 0px;
     width: auto;
   }
-  .image-2 h1{
+  .image-2 h1 {
     text-align: center;
     text-align: center;
     padding-top: 0px;
     width: auto;
   }
   .footer {
-    width: auto;
+    clear: both;
+    width: 690px;
+    margin: 0 auto;
+    margin-top: 108%;
+    /* position: absolute; */
+    top: 34%;
+    display: inherit;
+    float: none;
+    margin-left: 5.1%;
+    margin-top: 588%;
+    background-color: cyan;
   }
+  .paddingtop200px {
+    padding-top: 0px;
+  }
+
+  .socialmediaicons {
+    position: relative;
+    float: left;
+    margin-top: -45px;
+    margin-left: 286px;
+    /* margin-right: 311px; */
+    display: inline;
+    /* padding-left: 10px; */
+  }
+  .footer p {
+    padding-left: 175px;
+    color: #5a5a5a;
+    display: inline;
+
+    margin-top: 50px;
+    margin: 0 auto;
+
+    top: 22px;
+    position: relative;
+  }
+
+  .firstp button {
+    width: 102.8%;
+    margin: 0 auto;
+    position: relative;
+    left: -9px;
+    bottom: 0px;
+    margin-bottom: 0p;
+    margin-top: 35px;
+  }
+  .secondp button {
+    width: 100%;
+    width: 102.8%;
+    margin: 0 auto;
+    position: relative;
+    left: -60px;
+    width: 111.1%;
+    bottom: 0px;
+    margin-bottom: 0p;
+    margin-top: 35px;
+    
+  }
+  .thirdp button {
+    /* width: 102.8%; */
+    margin: 0 auto;
+    position: relative;
+    left: -9px;
+    bottom: 0px;
+    margin-bottom: 0p;
+    margin-top: 35px;
+    left: -60px;
+    width: 111.1%;
+  }
+
+  .ultextareas {
+    height: 697px;
+  }
+
   .threeparagraphs {
-    /* width: auto; */
+    width: auto;
+    top: 8%;
+    position: relative;
   }
 }
