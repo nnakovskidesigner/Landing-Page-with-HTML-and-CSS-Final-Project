@@ -283,11 +283,11 @@ body {
     margin: 0 auto;
     /* float: left; */
     /* position: relative; */
-    background-color: green;
+    /* background-color: green; */
     height: 200px;
   }
   .secondp {
-    background-color: grey;
+    /* background-color: grey; */
     /* clear: both; */
     width: 571px;
     border-right: none;
@@ -295,9 +295,10 @@ body {
     /* display: block; */
     margin: 0 auto;
     /* float: left; */
-    border-bottom: 1px solid #9a9a9a;
+    /* border-bottom: 1px solid #9a9a9a; */
     /* margin-bottom: 50px; */
     height: 200px;
+    border-b
   }
   .thirdp {
     clear: both;
@@ -306,8 +307,9 @@ body {
     text-align: center;
     display: block;
     margin: 0 auto;
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 200px;
+    border-top: none;
   }
   .ultextareas {
     height: 861px;
@@ -427,8 +429,8 @@ body {
     display: inherit;
     float: none;
     margin-left: 5.1%;
-    margin-top: 588%;
-    background-color: cyan;
+    margin-top: 568%;
+    /* background-color: cyan; */
   }
   .paddingtop200px {
     padding-top: 0px;
@@ -496,5 +498,11 @@ body {
     width: auto;
     top: 8%;
     position: relative;
+  }
+  .firstp h1{
+    padding-left: 50px;
+  }
+  .firstp p{
+    padding-left: 50px;
   }
 }
