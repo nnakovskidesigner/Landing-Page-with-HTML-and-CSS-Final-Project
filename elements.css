@@ -925,4 +925,131 @@ table tr {
   .firstparagraph-sam p {
     display: block;
   }
+  .text-headers {
+    width: 768px;
+  }
+  .text-headersh1-1 {
+    text-align: center;
+  }
+  .samplecontent-paragraph {
+    text-align: center;
+    width: 690px;
+    margin: 0 auto;
+  }
+  .twoparagraphss {
+    margin: 0 auto;
+    position: relative;
+
+    margin: 0 auto;
+    position: relative;
+    margin-left: 6%;
+    margin-top: -34px;
+  }
+  .firstparagraph-sam {
+    width: 690px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .secondparagraph-magna {
+    width: 690px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -30px;
+  }
+  .threeparagraphshere{
+    width: 0 auto;
+    /* background-color: cyan; */
+    position: relative;
+  }
+  .p1of3 {
+    width: 690px;
+    text-align: center;
+    margin-left: 46px;
+    margin-bottom: -115px;
+  }
+  .p2of3 {
+    width: 690px;
+    text-align: center;
+    margin-left: 46px;
+    margin-bottom: -115px;
+  }
+  .p3of3 {
+    width: 690px;
+    text-align: center;
+    margin-left: 46px;
+    padding-bottom: -45;
+    border-bottom: 1px solid #5a5a5a;
+    margin-bottom: 22px;
+    height: auto;
+  }
+  .twodividedsections{
+    border-top: none;
+  }
+  .leftsection {
+    width: 690px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+  }
+  .twodividedsectionselementsh1 {
+    float: none;
+    clear: both;
+    text-align: center;
+  }
+  .topbaritems {
+    width: 690px;
+
+  }
+  .unorderedlist {
+    width: 690px;
+    height: 315px;
+    text-align: center;
+  }
+  .unorderedlist li{
+    padding-left: 0px;
+  }
+  .orderedlists {
+    width: 690px;
+    text-align: center;
+  }
+  .defaultbluebutton1{
+    width: 690px;
+    margin-bottom: 20px;
+  }
+  .defaultbluebutton2{
+    width: 690px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    
+  }
+  .defaultbluebutton3{
+    width: 690px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .second-defaultbluebutton1 {
+    width: 690px;
+  }
+  .second-defaultbluebutton2 {
+    width: 690px;
+  }
+  .second-defaultbluebutton3 {
+    width: 690px;
+  }
+  .left-within-left {
+    width: 690px;
+  }
+  .rightwithin-leftsection {
+    clear: both;
+    width: 690px;
+    
+  }
+  .right-buttons-secondrow{
+    width: 690px;
+  }
+
+
+
+
+  
 }
