@@ -1,0 +1,12 @@
+.maxwidthtest {
+  height: 450px;
+  max-width: 1280px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+.smalelr {
+  height: 450px;
+  width: 1280px;
+  background-color: cyan;
+  margin: 0 auto;
+}
