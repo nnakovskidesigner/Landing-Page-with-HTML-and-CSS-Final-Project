@@ -433,7 +433,7 @@ table tr {
 .removeborderbottom {
   border-bottom: none;
 }
-.tablenameclass{
+.tablenameclass {
   padding-left: 45px;
 }
 .tabledescriptionclass {
@@ -443,7 +443,7 @@ table tr {
   padding-left: 50px !important;
   position: absolute;
 }
-.entiretable tr th{
+.entiretable tr th {
   padding-top: 20px;
   padding-bottom: 15px;
 }
@@ -498,79 +498,6 @@ table tr {
   text-align: right;
   /* float: right; */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* stylingrightsection from here below */
 
@@ -760,11 +687,14 @@ table tr {
   /* padding-left: px; */
   padding-right: 8px;
 }
-.downloadgreybutton, .donetransparenticon {
+.downloadgreybutton,
+.donetransparenticon {
   margin-left: 10px;
 }
 /* greybuttons */
-.greybutton1, .greybutton2, .greybutton3 {
+.greybutton1,
+.greybutton2,
+.greybutton3 {
   margin-top: 35px;
   margin-right: 15px;
   background-color: #9090906c;
@@ -800,18 +730,17 @@ table tr {
 .radio-buttons {
   display: inline-block;
   margin-top: 30px;
-  
 }
-.radiobutton1,  .radiobutton2, .radiobutton3 {
+.radiobutton1,
+.radiobutton2,
+.radiobutton3 {
   float: left;
   display: inline-block;
   font-size: 31px;
-  
 }
 
 .smallimages {
   width: 203.8px;
-  
 }
 .imagemgleft {
   margin-left: 10px;
@@ -819,10 +748,11 @@ table tr {
 .smallimagesrow {
   margin-top: 25px;
 }
-.smallimagesrow2, .smallimagesrow3 {
+.smallimagesrow2,
+.smallimagesrow3 {
   margin-top: 15px;
 }
-.radio-buttons input{
+.radio-buttons input {
   display: none;
 }
 /* .radiobutton1 label{
@@ -838,31 +768,18 @@ table tr {
   cursor: pointer;
 } */
 .radiobutton1 > i {
-        color: white;
-        background-color: #9a9a9a;
-        font-size: 20px;
-        
-        padding: 10px;
-        
-        border-radius: 50px;
-        
-        
-      }
+  color: white;
+  background-color: #9a9a9a;
+  font-size: 20px;
 
+  padding: 10px;
 
-
-
-
-
-
+  border-radius: 50px;
+}
 
 .mainpicture {
   width: 100%;
 }
-
-
-
-
 
 .leftpicturetextpicture {
   float: left;
@@ -870,7 +787,7 @@ table tr {
   margin-bottom: 30px;
   width: 36%;
 }
-.leftrightparagraph{
+.leftrightparagraph {
   line-height: 25px;
 }
 .float2ndimageright {
@@ -880,9 +797,6 @@ table tr {
 .leftrightpic2 {
   margin-top: 45px;
 }
-
-
-
 
 .boxsection {
   margin-top: 50px;
@@ -896,24 +810,18 @@ table tr {
 
 .preformatted {
   margin-top: 30px;
-  text-align: left !important; 
+  text-align: left !important;
 }
 
-.preformattedwrapped{
+.preformattedwrapped {
   white-space: pre-line;
-  margin-left: 0 !important; 
+  margin-left: 0 !important;
   background-color: #9090906c;
   line-height: 20px;
   border: 1px solid #9a9a9a;
   padding-left: 25px;
   text-align: left;
 }
-
-
-
-
-
-
 
 .footer {
   top: 700px;
@@ -952,23 +860,6 @@ table tr {
 .form form {
   margin-top: -35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 @media (max-width: 768px) {
@@ -1015,7 +906,7 @@ table tr {
     margin-bottom: 40px;
     margin-top: -30px;
   }
-  .threeparagraphshere{
+  .threeparagraphshere {
     width: 0 auto;
     /* background-color: cyan; */
     position: relative;
@@ -1041,7 +932,7 @@ table tr {
     margin-bottom: 22px;
     height: auto;
   }
-  .twodividedsections{
+  .twodividedsections {
     border-top: none;
   }
   .leftsection {
@@ -1057,31 +948,29 @@ table tr {
   }
   .topbaritems {
     width: 690px;
-
   }
   .unorderedlist {
     width: 690px;
     height: 315px;
     text-align: center;
   }
-  .unorderedlist li{
+  .unorderedlist li {
     padding-left: 0px;
   }
   .orderedlists {
     width: 690px;
     text-align: center;
   }
-  .defaultbluebutton1{
+  .defaultbluebutton1 {
     width: 690px;
     margin-bottom: 20px;
   }
-  .defaultbluebutton2{
+  .defaultbluebutton2 {
     width: 690px;
     margin-bottom: 20px;
     margin-left: 0px;
-    
   }
-  .defaultbluebutton3{
+  .defaultbluebutton3 {
     width: 690px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -1097,6 +986,8 @@ table tr {
   }
   .left-within-left {
     width: 690px;
+    /* background-color: cyan; */
+    margin-top: 1%;
   }
   .rightwithin-leftsection {
     clear: both;
@@ -1109,7 +1000,7 @@ table tr {
     /* margin: 0 auto; */
     left: 0px;
   }
-  .right-buttons-secondrow{
+  .right-buttons-secondrow {
     width: 690px;
   }
   .footer {
@@ -1119,33 +1010,74 @@ table tr {
     padding-left: 175px;
     color: #5a5a5a;
     display: inline;
-    
+
     margin-top: 50px;
     margin: 0 auto;
 
     top: 22px;
     position: relative;
-}
-.footer {
-  position: relative;
-  margin-bottom: 0px;
-  width: 690px;
-  margin: auto;
-  bottom: -1070px;
-  margin-left: 40px;
-}
-.socialmediaicons {
-  position: relative;
-  float: left;
-  margin-top: -45px;
-  margin-left: 286px;
-  /* margin-right: 311px; */
-  display: inline;
-  /* padding-left: 10px; */
-}
+  }
+  .footer {
+    position: relative;
+    margin-bottom: 0px;
+    width: 690px;
+    margin: auto;
+    bottom: -1070px;
+    margin-left: 40px;
+    top: 228%;
+  }
+  .socialmediaicons {
+    position: relative;
+    float: left;
+    margin-top: -45px;
+    margin-left: 286px;
+    /* margin-right: 311px; */
+    display: inline;
+    /* padding-left: 10px; */
+  }
+  .elementsheader {
+    margin-top: -60px;
+  }
+  .rightbuttons-section {
+    background-color: blue;
+    margin-top: 300px;
+  }
+  .rightbuttons-section button {
+    width: 690px;
+  }
 
+  .table {
+    margin-top: 700px;
+  }
 
-
-
+  .rightsection {
+    /* background-color: red; */
+    margin-top: 300px;
+    width: 690px;
+    margin-left: 40px;
+  }
+  .buttonsrightsection button {
+    width: 690px;
+  }
+  .rightbuttons-default,
+  .rightbuttons-alternate {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .right-buttons-secondrow button {
+    width: 690px;
+    margin-bottom: 20px;
+  }
+  .rightbuttons-second-default,
+  .rightbuttons-small {
+    margin-left: 0;
+  }
+  .fitbuttons button {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  .fitbuttonssmall button{
+    width: 225px;
+  }
   
 }
