@@ -1079,5 +1079,8 @@ table tr {
   .fitbuttonssmall button{
     width: 225px;
   }
+  .smallbuttonss1 {
+    /* background-color: red; */
+  }
   
 }
