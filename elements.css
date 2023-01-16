@@ -426,11 +426,34 @@ table tr:nth-child(2n) {
   margin-top: 50px;
 }
 table tr {
-  padding-top: 50px;
+  /* padding-top: 10px; */
+  padding-bottom: 20px;
+  border-bottom: 1px solid #9a9a9a;
+}
+.removeborderbottom {
+  border-bottom: none;
+}
+.tablenameclass{
+  padding-left: 45px;
+}
+.tabledescriptionclass {
+  padding-left: 48px;
+}
+.tablepriceclass {
+  padding-left: 50px !important;
+  position: absolute;
+}
+.entiretable tr th{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.tableprices {
+  padding-right: 40px;
 }
 .tabletextfloatright td {
   text-align: right;
   /* float: right; */
+  padding-right: 31px;
 }
 /* SECONDD TABLEEEEEEEEEEEEEE! */
 .secondtable {
@@ -893,11 +916,16 @@ table tr {
 
 
 .footer {
-  position: absolute;
+  top: 700px;
+  margin-top: 500%;
+  padding-top: 50px;
+  margin-bottom: 0;
+  clear: both;
+  position: relative;
   bottom: 0;
   width: 1280px;
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
   border-top: 1px solid #9a9a9a;
   /* margin-top: 170px;
   padding-top: 50px; */
@@ -1084,6 +1112,37 @@ table tr {
   .right-buttons-secondrow{
     width: 690px;
   }
+  .footer {
+    width: 690px;
+  }
+  .footer p {
+    padding-left: 175px;
+    color: #5a5a5a;
+    display: inline;
+    
+    margin-top: 50px;
+    margin: 0 auto;
+
+    top: 22px;
+    position: relative;
+}
+.footer {
+  position: relative;
+  margin-bottom: 0px;
+  width: 690px;
+  margin: auto;
+  bottom: -1070px;
+  margin-left: 40px;
+}
+.socialmediaicons {
+  position: relative;
+  float: left;
+  margin-top: -45px;
+  margin-left: 286px;
+  /* margin-right: 311px; */
+  display: inline;
+  /* padding-left: 10px; */
+}
 
 
 
